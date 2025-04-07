@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  margin: 0;    /* Remove any default margin */
+  padding: 0;
+  @apply p-6 bg-[#686d4e] shadow-lg mb-0;
+}
+
+header h1 {
+  @apply text-4xl font-extrabold text-[#d8cbb7] tracking-wide drop-shadow-md;
+}
+
+header nav {
+  @apply flex justify-start space-x-6 mt-3; /* Flex layout, centered, with space between */
+}
+
+header nav a {
+  @apply text-[#d8cbb7] font-medium; /* Text color and font styling */
+}
+
+header nav a:hover {
+  @apply text-[#f0f0f0]; /* Lighten text color on hover */
+}
+
+.bg-custom {
+  background-color: #d6c9b6;
+}
+
+main {
+  height: 100vh; 
+  padding: 2.5rem;
+  background-color: #426870; 
+}

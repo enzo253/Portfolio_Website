@@ -25,11 +25,5 @@ header nav a:hover {
 }
 
 .bg-custom {
-  background-color: #d6c9b6;
-}
-
-main {
-  height: 100vh; 
-  padding: 2.5rem;
-  background-color: #426870; 
+  background-color: #d9cab6;
 }

@@ -4,18 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SuperStore Dashboard | Enzo Würtele</title>
+  <link rel="stylesheet" href="assets/main.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/htmx.org@1.9.2"></script>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+<body class="bg-custom text-gray-900 font-sans">
 
   <!-- Header -->
-  <header class="sticky top-0 bg-white shadow-md z-50">
-    <nav class="flex justify-between items-center max-w-6xl mx-auto py-4 px-6">
-      <h1 class="font-bold text-xl">ENZO WÜRTELE</h1>
+  <header>
+    <nav class="p-4 flex justify-between items-center">
+      <h1>ENZO WÜRTELE</h1>
       <div class="space-x-4">
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
@@ -26,12 +27,13 @@
   </header>
 
   <!-- Main Project Section -->
-  <main class="max-w-5xl mx-auto px-6 py-16 space-y-16">
-
+    <main class="max-w-5xl mx-auto px-6 py-16 space-y-16">
     <!-- Title + Banner -->
     <section class="text-center" data-aos="fade-up">
-      <h2 class="text-4xl font-bold mb-4">📊 SuperStore Dashboard</h2>
-      <p class="text-lg text-gray-600 mb-6">An interactive dashboard visualizing sales, profits, and customer segmentation for a fictional SuperStore using Plotly Dash.</p>
+      <h2 class="text-4xl font-bold mb-4">📊 SuperStore Sales and Profit Analysis</h2>
+      <p class="text-lg text-gray-600 mb-6">This project explores U.S. SuperStore sales and profit data using interactive dashboards,
+      geospatial mapping, and customer segmentation. Through data wrangling, visualization,
+      and clustering techniques, we uncover critical insights to support strategic decision-making and boost profitability.</p>
       <img src="assets/images/SuperStore.jpeg" alt="SuperStore Project Screenshot" class="rounded-xl shadow-lg mx-auto max-w-full h-auto" />
     </section>
 
@@ -39,10 +41,11 @@
     <section data-aos="fade-up" data-aos-delay="100">
       <h3 class="text-2xl font-semibold mb-4">🛠️ Tech Stack</h3>
       <ul class="list-disc list-inside text-gray-700 space-y-1">
-        <li>Python, Pandas, NumPy for data wrangling</li>
-        <li>Dash & Plotly for interactive dashboard components</li>
-        <li>Tailwind CSS for styling integration</li>
-        <li>HTMX used for lightweight interactivity</li>
+        <li><strong>Python:</strong> Data wrangling and analysis using Pandas, NumPy, Seaborn, and Matplotlib</li>
+        <li><strong>Tableau:</strong> Interactive dashboards for visual storytelling and KPI insights</li>
+        <li><strong>SQL:</strong> Structured querying and database management (SuperStore.db)</li>
+        <li><strong>HTML/CSS:</strong> Custom geographic visualizations with interactive maps</li>
+        <li><strong>PowerPoint:</strong> Presentation of findings and business recommendations</li>
       </ul>
     </section>
 
@@ -50,20 +53,22 @@
     <section data-aos="fade-up" data-aos-delay="200">
       <h3 class="text-2xl font-semibold mb-4">⚙️ Process & Methodology</h3>
       <p class="text-gray-700 mb-4">
-        I started by cleaning and restructuring the sales dataset to normalize region-based performance metrics. After establishing a clean base, I used EDA to identify key drivers of profit. With Dash, I built interactive filters by region, category, and date to enable dynamic insights. Performance was optimized using callback functions and memoization to ensure fluid UX.
-      </p>
+        I began by cleaning and restructuring the dataset to normalize region-based metrics. Through exploratory data analysis (EDA), I identified profit drivers and customer behavior patterns.
+        Using Dash (earlier stages) and Tableau, I built interactive components to explore sales trends by region, category, and time. I also used clustering (K-Means) to segment customer types.
+        Performance was optimized with efficient data handling and filtering, while ensuring dashboard responsiveness and usability across devices.
       <p class="text-gray-700">
-        I also integrated light responsiveness so the dashboard performs well across devices, and connected it to a JSON config to allow plug-and-play with new datasets.
+        I also integrated light responsiveness so the dashboard performs well across devices, and connected it to a JSON config to allow plug-and-play with new dataset.
       </p>
     </section>
 
     <!-- Outcome / Learnings -->
-    <section data-aos="fade-up" data-aos-delay="300">
-      <h3 class="text-2xl font-semibold mb-4">📈 Outcomes</h3>
+    <section data-aos="fade-up" data-aos-delay="200">
+      <h2 class="text-2xl font-semibold mb-4">📈 Outcomes</h2>
       <ul class="list-disc list-inside text-gray-700 space-y-1">
-        <li>Gained deeper understanding of Dash layouts & callbacks</li>
-        <li>Improved loading speed by 30% via efficient state management</li>
-        <li>Users can now identify top-performing products and segments instantly</li>
+        <li>📍 Identified top-performing and underperforming regions (Texas & Washington)</li>
+        <li>📊 Built interactive geographic maps for visualizing profit, discount, and sales patterns</li>
+        <li>🔄 Increased analysis speed through streamlined callbacks and modular design</li>
+        <li>🧠 Developed intuitive segmentations using clustering to target repeat customers</li>
       </ul>
     </section>
 

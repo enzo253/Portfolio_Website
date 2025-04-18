@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capital Bikeshare Data Analysis | Enzo Würtele</title>
+  <link rel="stylesheet" href="assets/main.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-custom text-gray-900 font-sans">
+
+  <!-- Header -->
+  <header>
+    <nav class="p-4 flex justify-between items-center">
+      <h1>ENZO WÜRTELE</h1>
+      <div class="space-x-4">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Project Section -->
+  <main class="max-w-5xl mx-auto px-6 py-16 space-y-16">
+
+    <!-- Title + Banner -->
+    <section class="text-center" data-aos="fade-up">
+      <h2 class="text-4xl font-bold mb-4">🚲 Capital Bikeshare Data Analysis & Prediction</h2>
+      <p class="text-lg text-gray-600 mb-6">
+        This project analyzes Capital Bikeshare trip data to uncover urban mobility patterns and predict daily rider counts.
+        Using EDA, spatial data integration, and machine learning models, it provides actionable insights into biking trends across Washington, D.C.
+      </p>
+
+      <!-- Placeholder Image -->
+      <iframe
+      src="assets/EDA_of_Capital_Bikeshare.pdf"
+      class="w-full h-[80vh]" 
+      frameborder="0"
+      loading="lazy">
+      </iframe>
+    </section>
+
+    <!-- Tech Stack -->
+    <section data-aos="fade-up" data-aos-delay="100">
+      <h3 class="text-2xl font-semibold mb-4">🛠️ Tech Stack</h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li><strong>Python:</strong> Data processing and modeling using Pandas, NumPy, Scikit-Learn</li>
+        <li><strong>Seaborn & Matplotlib:</strong> Exploratory data analysis and visualization of rider patterns</li>
+        <li><strong>GeoPandas:</strong> Spatial data analysis with ward shapefiles for geographic insights</li>
+        <li><strong>Jupyter Notebook:</strong> Interactive development environment for analysis and modeling</li>
+      </ul>
+    </section>
+
+    <!-- Process / Methodology -->
+    <section data-aos="fade-up" data-aos-delay="200">
+      <h3 class="text-2xl font-semibold mb-4">⚙️ Process & Methodology</h3>
+      <p class="text-gray-700 mb-4">
+        The project began by merging Capital Bikeshare trip data with ward shapefiles to add a geographic dimension to the analysis.
+        After cleaning the data and handling missing values, I performed exploratory analysis to visualize trip patterns by time, demographics, 
+        and weather factors. Multiple regression models were trained and evaluated to predict daily rider counts.
+      </p>
+      <p class="text-gray-700">
+        Key metrics like RMSE, MAE, and R-squared were used to select the best-performing models (Random Forest and XGBoost).
+        Weather data was incorporated to boost prediction accuracy, providing a holistic view of urban mobility behaviors.
+      </p>
+    </section>
+
+    <!-- Outcomes -->
+    <section data-aos="fade-up" data-aos-delay="300">
+      <h3 class="text-2xl font-semibold mb-4">📈 Key Findings</h3>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li>🚲 Weekday commuting hours and weekend afternoons showed peak trip volumes.</li>
+        <li>🌦️ Weather variables like temperature and rainfall significantly impacted rider counts.</li>
+        <li>📍 Stations near metro stations and tourist areas had the highest traffic.</li>
+        <li>📊 Machine learning models achieved high accuracy in predicting daily ridership.</li>
+      </ul>
+    </section>
+
+    <!-- GitHub CTA -->
+    <section class="text-center mt-12" data-aos="fade-up" data-aos-delay="500">
+      <a href="https://github.com/enzo253/CapitalBikeshareAnalysis" target="_blank"
+         class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition duration-300">
+        🔗 View on GitHub
+      </a>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 text-sm">
+    © 2025 Enzo Würtele. Built with ❤️ using Tailwind, HTMX, and too much caffeine.
+  </footer>
+
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
+

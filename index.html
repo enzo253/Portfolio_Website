@@ -1,116 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ENZO WÜRTELE | Portfolio </title>
-<script src="https://unpkg.com/htmx.org@1.9.2"></script>
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="assets/main.css">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ENZO WÜRTELE | Portfolio</title>
+  
+  <!-- Scripts and Styles -->
+  <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/main.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body class="bg-custom text-gray-900 font-sans">
-	<header>
-		<nav class="flex justify-between items-center max-w-8xl mx-auto py-4 px-6">
-		<h1>ENZO WÜRTELE</h1>
-		  <div class="space-x-4">
-		    <a href="index.html">Home</a>
-		    <a href="projects.html">Projects</a>
-		  </div>
-		</nav>
-	</header>
+<body class="bg-custom text-gray-900 font-sans leading-relaxed">
+  
+<!-- Header -->
+<header>
+  <nav class="flex justify-between items-center max-w-7xl mx-auto py-4 px-6">
+    <h1>ENZO WÜRTELE</h1>
+  </nav>
+</header>
 
+<!-- Main Content -->
+<main class="max-w-7xl mx-auto px-4">
 
-<main>
 <!-- Skills Section -->
-<section id="skills" class="py-16 px-6 bg-#d8c8b7">
-  <h3 class="text-4xl font-bold text-center mb-12 text-[#686c4f] tracking-wide">My Technical Skills</h3>
+<section id="skills" class="py-20" style="background-color: #d8c8b7;">
+  <h2 class="text-4xl font-bold text-center mb-12 text-[#686c4f] tracking-wider" data-aos="fade-down">Technical Skills</h2>
 
-  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+    <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up">
+      <img src="assets/images/Python-Logo-600x445.png.webp" alt="Python" class="h-16 w-16 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">Python</p>
+    </div>
 
-    <!-- Skill Card -->
-  <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up">
-    <img src="assets/images/Python-Logo-600x445.png.webp" alt="Python" class="h-16 w-16 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">Python</p>
-  </div>
+    <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="100">
+      <img src="assets/images/Sql_data_base_with_logo.svg.png" alt="SQL" class="h-16 w-16 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">SQL</p>
+    </div>
 
-  <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="100">
-    <img src="assets/images/Sql_data_base_with_logo.svg.png" alt="SQL" class="h-16 w-16 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">SQL</p>
-  </div>
+    <div class="bg-[#686c4f] rounded-xl p-auto shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="200">
+      <img src="assets/images/Pandas_logo.svg.png" alt="Pandas" class="h-24 w-24 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">Pandas</p>
+    </div>
 
-  <div class="bg-[#686c4f] rounded-xl p-auto shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="200">
-    <img src="assets/images/Pandas_logo.svg.png" alt="Pandas" class="h-24 w-24 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">Pandas</p>
-  </div>
+    <div class="bg-[#686c4f] rounded-xl p-auto shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="300">
+      <img src="assets/images/NumPy_logo_2020.svg.png" alt="NumPy" class="h-24 w-24 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">NumPy</p>
+    </div>
 
-  <div class="bg-[#686c4f] rounded-xl p-auto shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="300">
-    <img src="assets/images/NumPy_logo_2020.svg.png" alt="NumPy" class="h-24 w-24 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">NumPy</p>
-  </div>
+    <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="400">
+      <img src="assets/images/seaborn-1.svg" alt="Seaborn" class="h-16 w-16 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">Seaborn</p>
+    </div>
 
-  <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="400">
-    <img src="assets/images/seaborn-1.svg" alt="Seaborn" class="h-16 w-16 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">Seaborn</p>
-  </div>
+    <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="500">
+      <img src="assets/images/Scikit_learn_logo_small.svg.png" alt="scikit-learn" class="h-16 w-16 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">scikit-learn</p>
+    </div>
 
-  <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="500">
-    <img src="assets/images/Scikit_learn_logo_small.svg.png" alt="scikit-learn" class="h-16 w-16 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">scikit-learn</p>
-  </div>
+    <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="800">
+      <img src="assets/images/Amazon_Web_Services_Logo.svg.png" alt="AWS" class="h-16 w-16 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">AWS</p>
+    </div>
 
-  <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="800">
-    <img src="assets/images/Amazon_Web_Services_Logo.svg.png" alt="AWS" class="h-16 w-16 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">AWS</p>
-  </div>
+    <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="1100">
+      <img src="assets/images/css3-logo-png-transparent.png" alt="CSS" class="h-16 w-16 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">CSS</p>
+    </div>
 
-  <div class="bg-[#686c4f] rounded-xl p-4 shadow-md hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 text-center" data-aos="fade-up" data-aos-delay="1100">
-    <img src="assets/images/css3-logo-png-transparent.png" alt="CSS" class="h-16 w-16 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">CSS</p>
-  </div>
-
-  <div class="bg-[#686c4f] rounded-xl p-4 shadow-md transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-2xl text-center" data-aos="fade-up" data-aos-delay="1100">
-    <img src="assets/images/C_Programming_Language.svg.png" alt="C" class="h-16 w-16 mx-auto mb-3 object-contain">
-    <p class="font-medium text-white">C</p>
-  </div>
-
+    <div class="bg-[#686c4f] rounded-xl p-4 shadow-md transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-2xl text-center" data-aos="fade-up" data-aos-delay="1100">
+      <img src="assets/images/C_Programming_Language.svg.png" alt="C" class="h-16 w-16 mx-auto mb-3 object-contain">
+      <p class="font-medium text-white">C</p>
+    </div>
 
 </section>
 
+<!-- Projects Section -->
+<section id="projects" class="py-20">
+  <h2 class="text-4xl font-bold text-center mb-12 text-[#686c4f] tracking-wider" data-aos="fade-down">Projects</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    
+    <!-- Project 1 -->
+    <div data-aos="fade-up" data-aos-delay="200">
+      <div class="bg-[#d9ccb6] rounded-xl shadow-md overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105" onclick="window.location.href='SuperStore.html'">
+        <img class="w-full h-48 object-cover" src="assets/images/SuperStore.jpeg" alt="SuperStore Project" />
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">SuperStore Sales and Profit Analysis</h3>
+          <p class="text-gray-700 mb-4 text-sm">
+          Explored U.S. SuperStore data using visualization, clustering, and geospatial mapping to uncover sales trends and profit patterns.
+          </p>
+          <a href="https://github.com/enzo253/SuperStore-Sales-and-Profit-Analysis" class="text-blue-600 hover:underline text-sm">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+      <!-- Project Card 2 -->
+      <div data-aos="fade-up" data-aos-delay="200">
+        <div class="bg-[#d9ccb6] rounded-xl shadow-md overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105" onclick="window.location.href='GreenHell.html'">
+          <img class="w-full h-48 object-cover" src="assets/images/rare25.avif" alt="Green Hell Predictor" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Green Hell Predictor</h3>
+            <p class="text-gray-700 mb-4 text-sm">
+            A web app using AI to predict missing car specs and Nürburgring lap times with high accuracy, providing deep performance insights.
+            </p>
+            <div class="space-x-2">
+            <a href="https://greenhellpredictor.streamlit.app/" class="text-blue-600 hover:underline text-sm">Live Demo</a>
+            <a href="https://github.com/enzo253/GreenHellPredictor" class="text-blue-600 hover:underline text-sm">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div data-aos="fade-up" data-aos-delay="200">
+        <div class="bg-[#d9ccb6] rounded-xl shadow-md overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105" onclick="window.location.href='CapitalBikeShare.html'">
+          <img class="w-full h-48 object-cover" src="assets/images/Capital_Bike_Share.jpg" alt="Capital Bikeshare Analysis" />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold mb-2">Capital Bikeshare Data Analysis</h3>
+            <p class="text-gray-700 mb-4 text-sm">
+            Analyzed Capital Bikeshare data to explore urban mobility, using EDA and machine learning to predict daily rider counts and trends.
+            </p>
+            <a href="https://github.com/enzo253/Capital_BikeShare_Analysis" class="text-blue-600 hover:underline text-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+</section>
+
 <!-- About Me Section -->
-<section id="about" class="py-16 px-4" data-aos="fade-up" data-aos-delay="500">
-  <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
-  <p class="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto">
+<section id="about" class="py-20" data-aos="fade-up">
+  <h2 class="text-4xl font-bold text-center mb-8 text-[#686c4f] tracking-wider">About Me</h2>
+  <p class="text-lg text-gray-700 text-center max-w-2xl mx-auto">
     Hi, I'm <span class="font-semibold text-gray-900">Enzo Würtele</span>, a data analyst and web developer
-    focused on delivering data-driven insights and creating modern, intuitive web applications.
+    focused on delivering data-driven insights and modern web applications.
     I am passionate about continuous learning, innovation, and building impactful solutions.
   </p>
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="py-16 px-4" data-aos="fade-up" data-aos-delay="500">
-  <h2 class="text-3xl font-bold text-center mb-8">Get In Touch</h2>
-  <p class="text-lg text-gray-700 leading-relaxed text-center max-w-2xl mx-auto mb-8">
+<section id="contact" class="py-20" data-aos="fade-up">
+  <h2 class="text-4xl font-bold text-center mb-8 text-[#686c4f] tracking-wider">Get In Touch</h2>
+  <p class="text-lg text-gray-700 text-center max-w-2xl mx-auto mb-8">
     Have a project in mind or want to collaborate? Feel free to reach out.
   </p>
   <div class="flex justify-center space-x-6">
-    <a href="mailto:enzo.wurtele@outlook.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md transition">
-      Email
-    </a>
-    <a href="https://github.com/enzo253" target="_blank" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-md transition">
-      GitHub
-    </a>
-    <a href="https://www.linkedin.com/in/enzo-w%C3%BCrtele-360075320/" target="_blank" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md transition">
-      LinkedIn
-    </a>
+    <a href="mailto:enzo.wurtele@outlook.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md transition">Email</a>
+    <a href="https://github.com/enzo253" target="_blank" class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-md transition">GitHub</a>
+    <a href="https://www.linkedin.com/in/enzo-w%C3%BCrtele-360075320/" target="_blank" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md transition">LinkedIn</a>
   </div>
 </section>
 
+</main>
+
+<!-- AOS Animation Init -->
 <script>
   AOS.init();
 </script>
+
 </body>
 </html>
 

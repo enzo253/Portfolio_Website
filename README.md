@@ -30,7 +30,9 @@ I’m a **data professional** passionate about solving complex problems through 
 ├── postcss.config.js        # PostCSS configuration
 ├── package.json             # Project dependencies
 ├── .gitignore               # Git ignore rules
-└── assets/                  # Images and other assets
+└── assets/                  # Images and other ets
+
+```
 
 ## 🚀 Getting Started (Local Development)
 

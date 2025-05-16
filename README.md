@@ -56,7 +56,8 @@ Edit
 npx tailwindcss -i ./input.css -o ./dist/output.css --watch
 Open index.html in your browser (or use a tool like Live Server).
 
-📌 Future Improvements
+## 📌 Future Improvements
 Add more interactive visuals and dashboards
 
 Improve mobile responsiveness
+Include downloadable versions of data files

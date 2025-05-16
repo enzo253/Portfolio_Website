@@ -18,8 +18,9 @@ I’m a **data professional** passionate about solving complex problems through 
 - **JavaScript**
 - **PostCSS** – Tailwind build processing
 
-## 📂 Project Structure
+### 📂 Project Structure
 
+```
 .
 ├── index.html               # Home / Bio page
 ├── GreenHell.html           # Individual project page

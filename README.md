@@ -21,19 +21,15 @@ I’m a **data professional** passionate about solving complex problems through 
 ## 📂 Project Structure
 
 .
-├── index.html # Home / Bio page
-├── GreenHell.html # Individual project page
-├── CapitalBikeShare.html # Individual project page
-├── SuperStore.html # Individual project page
-├── tailwind.config.js # Tailwind configuration
-├── postcss.config.js # PostCSS configuration
-├── package.json # Project dependencies
-├── .gitignore # Git ignore rules
-└── assets/ # Images and other assets
-
-bash
-Copy
-Edit
+├── index.html               # Home / Bio page
+├── GreenHell.html           # Individual project page
+├── CapitalBikeShare.html    # Individual project page
+├── SuperStore.html          # Individual project page
+├── tailwind.config.js       # Tailwind CSS configuration
+├── postcss.config.js        # PostCSS configuration
+├── package.json             # Project dependencies
+├── .gitignore               # Git ignore rules
+└── assets/                  # Images and other assets
 
 ## 🚀 Getting Started (Local Development)
 

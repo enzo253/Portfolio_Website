@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! This site showcases a collection of my
 ## 🌐 Live Demo
 
 Check out the live website here:  
-👉 [https://enzowurtele-datascience-portfolio.netlify.app/](https://enzowurtele-datascience-portfolio.netlify.app/)
+👉 [https://enzowurtele-datascience-portfolio.netlify.app/](https://enzowurtele-portfolio.netlify.app/)
 
 ## 🧠 About Me
 
